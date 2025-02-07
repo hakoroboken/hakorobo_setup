@@ -1,0 +1,1 @@
+# hakorobo_setup
