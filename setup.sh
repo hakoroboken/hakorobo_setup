@@ -90,4 +90,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo usermod -aG docker $USER && newgrp docker
 
+log_info "React環境のインストールを開始します"
+
+sudo apt install nodejs -y
+sudo apt install npm -y
+sudo npm i -g create-react-app
+
 log_info "すべてのインストールが完了しました"
