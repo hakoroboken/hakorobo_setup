@@ -95,6 +95,5 @@ log_info "React環境のインストールを開始します"
 sudo apt install nodejs -y
 sudo apt install npm -y
 sudo npm i -g create-react-app
-npm install web-vitals
 
 log_info "すべてのインストールが完了しました"
