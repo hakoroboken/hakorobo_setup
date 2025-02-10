@@ -25,7 +25,7 @@ chmod +x ./setup.sh
 ```
 chmod +x ./ros2_test.sh
 ```
-###
+### ROS2の実行
 ```
 ./ros2_test.sh
 ```
@@ -40,3 +40,15 @@ user_name@pc_name:~/hakorobo_setup$ ./ros2_test.sh
 [INFO] [1738919131.379584035] [talker]: Publishing: 'Hello World: 4'
 
 ```
+
+# Reactの動作確認
+### スクリプトに権限を与える
+```
+chmod +x ./react_test.sh
+```
+### ReactWebアプリのデモ起動
+```
+./react_test.sh
+```
+
+上手く行っていればブラウザが起動し、デモアプリが動く
